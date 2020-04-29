@@ -1,0 +1,31 @@
+{
+  "name": "react-expense-tracker-backend",
+  "version": "1.0.0",
+  "description": "creating the backend sever for the react app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssayanm/react-expense-tracker.git"
+  },
+  "author": "Sayan Mukherjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssayanm/react-expense-tracker/issues"
+  },
+  "homepage": "https://github.com/ssayanm/react-expense-tracker#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3"
+  }
+}
